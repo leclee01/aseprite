@@ -479,7 +479,7 @@ if [ ! -f "$active_build_dir/ninja.build" ] ; then
          -DCMAKE_BUILD_TYPE=$build_type \
          -DUSE_SHARED_CURL=OFF \
          -DUSE_SHARED_OPENSSL=OFF \
-         -DUSE_SHARED_ZLIB=OFF \    
+         -DUSE_SHARED_ZLIB=OFF \
          $osx_deployment_target \
          -DLAF_BACKEND=skia \
          -DSKIA_DIR="$skia_dir" \
