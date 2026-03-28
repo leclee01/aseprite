@@ -15,7 +15,7 @@
   * [Linux details](#linux-details)
 * [Using shared third party libraries](#using-shared-third-party-libraries)
 
-# Platforms  
+# Platforms
 
 You should be able to compile Aseprite successfully on the following
 platforms (older and newer versions might work):
