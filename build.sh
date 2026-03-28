@@ -477,6 +477,9 @@ if [ ! -f "$active_build_dir/ninja.build" ] ; then
     echo "Configuring Aseprite..."
     if ! cmake -B "$active_build_dir" -S "$source_dir" -G Ninja \
          -DCMAKE_BUILD_TYPE=$build_type \
+         -DUSE_SHARED_CURL=OFF \
+         -DUSE_SHARED_OPENSSL=OFF \
+         -DUSE_SHARED_ZLIB=OFF \    
          $osx_deployment_target \
          -DLAF_BACKEND=skia \
          -DSKIA_DIR="$skia_dir" \
